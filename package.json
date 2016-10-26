@@ -1,7 +1,7 @@
 {
-  "name": "fh-wfm-sync",
+  "name": "raincatcher-sync",
   "version": "0.0.12",
-  "description": "An sync module for WFM",
+  "description": "An sync module for Raincatcher",
   "main": "lib/angular/sync-ng.js",
   "scripts": {
     "test-watch": "mochify --watch test/client/**/*.spec.js",
@@ -14,7 +14,7 @@
     "grunt-eslint": "grunt eslint"
   },
   "keywords": [
-    "wfm",
+    "raincatcher",
     "sync"
   ],
   "author": "Sebastien Blanc, Brian Leathem",
