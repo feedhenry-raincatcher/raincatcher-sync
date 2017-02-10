@@ -23,7 +23,8 @@
   "dependencies": {
     "lodash": "4.7.0",
     "q": "1.4.1",
-    "rx": "4.1.0"
+    "rx": "4.1.0",
+    "string-template": "^1.0.0"
   },
   "devDependencies": {
     "angular": "1.5.3",
