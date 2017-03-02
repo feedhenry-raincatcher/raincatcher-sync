@@ -1,6 +1,6 @@
-# FeedHenry WFM sync
+# FeedHenry RainCatcher sync
 
-A sync module for FeedHenry WFM providing :
+A sync module for FeedHenry RainCatcher providing :
 - A Server-side sync module
 - A Front-end (Angular Service) sync module
 
@@ -38,14 +38,14 @@ syncService.manage(config.datasetId, null, queryParams);
 
 ```
 
-Checkout a full example [here](https://github.com/feedhenry-staff/wfm-workorder/blob/master/lib/angular/sync-service.js)
+Checkout a full example [here](https://github.com/feedhenry-raincatcher/raincatcher-workorder/blob/master/lib/angular/sync-service.js)
 
 
 ## Usage in an express backend
 
 ### Setup
 
-The server-side component of this WFM module exports a function that takes express and mediator instances as parameters, as in:
+The server-side component of this RainCatcher module exports a function that takes express and mediator instances as parameters, as in:
 
 ```javascript
 var sync = require('fh-wfm-sync/lib/server');
@@ -57,7 +57,7 @@ module.exports = function(mediator, app, mbaasApi) {
 ```
 #### Sync config options
 
-Check a complete example [here](https://github.com/feedhenry-staff/wfm-workorder/blob/master/lib/config.js)
+Check a complete example [here](https://github.com/feedhenry-raincatcher/raincatcher-workorder/blob/master/lib/config.js)
 
 ```javascript
 {
