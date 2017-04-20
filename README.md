@@ -509,12 +509,21 @@ Check a complete example [here](https://github.com/feedhenry-staff/wfm-workorder
 {
   datasetId : 'workorders',
   syncOptions : {
+    "syncFrequency": 5,
     "sync_frequency" : 5,
     "storage_strategy": "dom",
     "do_console_log": false
   }
 }
 ```
+
+##### Sync frequencies
+
+Sync frequency is set individually for the client and the server.
+* On the client the setting is named `sync_frequency`.
+* On the server the setting is named `syncFrequency`.
+
+It is recommended that these settings share the same value.
 
 ##### Custom data collision handler setup
 
