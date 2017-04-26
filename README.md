@@ -8,7 +8,7 @@ This module makes uses the [$fh.sync Client](https://access.redhat.com/documenta
 
 ## Notice
 
-Version `1.x` of this module requires `fh-mbaas-api 7`. 
+Version `1.x` of this module requires `fh-mbaas-api 7.x`. 
 Version `0.x` of this module supports older versions of `fh-mbaas-api`.
 
 ## Client-side usage
