@@ -6,6 +6,11 @@ A sync module for FeedHenry WFM providing :
 
 This module makes uses the [$fh.sync Client](https://access.redhat.com/documentation/en/red-hat-mobile-application-platform-hosted/3/paged/client-api/chapter-11-fhsync) and [$fh.sync Cloud](https://access.redhat.com/documentation/en/red-hat-mobile-application-platform-hosted/3/paged/cloud-api/chapter-10-fhsync) APIs to provide the data synchronisation functionality.
 
+## Notice
+
+Version `1.x` of this module requires `fh-mbaas-api 7`. 
+Version `0.x` of this module supports older versions of `fh-mbaas-api`.
+
 ## Client-side usage
 
 ### Setup
