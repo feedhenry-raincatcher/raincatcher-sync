@@ -25,10 +25,8 @@
     "fh-wfm-mediator": "0.3.3",
     "lodash": "4.17.4",
     "q": "1.4.1",
-    "rx": "4.1.0"
-  },
-  "peerDependencies": {
-    "fh-mbaas-api": "^7.0.0"
+    "rx": "4.1.0",
+    "semver": "5.3.0"
   },
   "devDependencies": {
     "angular": "1.5.3",
