@@ -1,6 +1,6 @@
 {
   "name": "fh-wfm-sync",
-  "version": "0.3.2",
+  "version": "1.0.0",
   "description": "An sync module for WFM",
   "main": "lib/angular/sync-ng.js",
   "repository": {
@@ -25,7 +25,9 @@
     "fh-wfm-mediator": "0.3.3",
     "lodash": "4.17.4",
     "q": "1.4.1",
-    "rx": "4.1.0"
+    "rx": "4.1.0",
+    "semver": "5.3.0",
+    "shortid": "^2.2.8"
   },
   "devDependencies": {
     "angular": "1.5.3",
@@ -37,7 +39,6 @@
     "cors": "2.7.1",
     "dotenv": "2.0.0",
     "express": "4.13.4",
-    "fh-mbaas-api": "6.1.6",
     "grunt": "1.0.1",
     "grunt-cli": "1.2.0",
     "grunt-eslint": "18.0.0",
