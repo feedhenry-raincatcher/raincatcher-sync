@@ -1,6 +1,6 @@
 {
   "name": "fh-wfm-sync",
-  "version": "1.0.0",
+  "version": "1.0.1-headless",
   "description": "An sync module for WFM",
   "main": "lib/angular/sync-ng.js",
   "repository": {
@@ -46,7 +46,6 @@
     "load-grunt-tasks": "3.5.2",
     "mocha": "3.2.0",
     "nodemon": "1.9.1",
-    "shortid": "^2.2.6",
     "should": "8.3.0",
     "sinon": "1.17.6",
     "sinon-as-promised": "4.0.2"
